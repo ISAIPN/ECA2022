@@ -17,10 +17,10 @@ body{
 }
 
 .hero{
-  color:#ffffff;
+  color:rgb(0,97,117);
   text-align: center;
   /* background: linear-gradient(to bottom, #4182e4 0%, #4182e4 100%) no-repeat #a05fb7; */
-  background-color: rgb(1, 8, 10);
+  background-color: rgb(207, 232, 255);
 }
 
 .container{
@@ -61,7 +61,7 @@ h1{
   margin:0;
 }
 .hero p{
-  color:#fff;
+  color:black;
 }
 .subtext{
   margin-top: 10px;
