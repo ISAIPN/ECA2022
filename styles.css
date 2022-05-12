@@ -12,7 +12,7 @@ body{
   text-decoration: none;
   color:black;
   background-color: white;
-  padding: 10px;
+  padding: 0.8em;
   border-radius: 50px;
 }
 
@@ -113,20 +113,33 @@ p, address {
   text-align: center;
 }
 /* ---------------ECALY---------------------------------- */
-/* .EcalyMain{
-  height: 100vh;
-  background-image: url("assets/img/ecalyp.png");
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center center;
+.ComunidadSection{
+  background-color: rgb(207, 232, 255);
+}
+
+.Ecaly{
+  background-color: rgb(207, 232, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.EcalyMain img{
+  width: 90vw;
   }
-.EcalyMain{
-  width:100vw;
-} */
+
+.buttonsEcaly{
+  background-color: rgb(207, 232, 255);
+  padding: 0 0 1.2em 0;
+  text-align: center;
+}
+
 
 
 /* ---------------MENU---------------------------------- */
-.menu{
+/* .menu{
     position:fixed;
     top:2em;
     right:2em;
@@ -213,7 +226,7 @@ p, address {
 }
 .menu-screen a:hover span:not(.main){
     opacity:1
-}
+} */
 /* ---------------Foo---------------------------------- */
 .footer-columns{
   flex-flow: wrap;
