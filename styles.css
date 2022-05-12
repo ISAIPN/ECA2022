@@ -102,6 +102,9 @@ p, address {
     font-weight: 300;
     line-height: 1.4em;
 }
+.editable p{
+  text-align: justify;
+}
 /* ---------------Patrocinadores---------------------------------- */
 .cronograma{
   text-align: center;
@@ -109,6 +112,19 @@ p, address {
 .patrocinadores{
   text-align: center;
 }
+/* ---------------ECALY---------------------------------- */
+/* .EcalyMain{
+  height: 100vh;
+  background-image: url("assets/img/ecalyp.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  }
+.EcalyMain{
+  width:100vw;
+} */
+
+
 /* ---------------MENU---------------------------------- */
 .menu{
     position:fixed;
@@ -242,9 +258,10 @@ svg:hover{
     padding-right: 1.1em;
   }
   div .image{
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
+    padding-left: 1.5em;
   }
 
 }
@@ -260,7 +277,7 @@ svg:hover{
     padding-right: 1.5em;
   }
   div .image{
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
   }
