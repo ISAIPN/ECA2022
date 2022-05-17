@@ -133,7 +133,7 @@ p, address {
 
 .buttonsEcaly{
   background-color: rgb(207, 232, 255);
-  padding: 0 0 1.2em 0;
+  padding: 0 0 2.2em 0;
   text-align: center;
 }
 
@@ -260,6 +260,17 @@ svg:hover{
   color: grey;
 }
 /* ---------------MEDIA---------------------------------- */
+@media screen and (max-width:421px){
+  /* section{
+    background-color: blue;
+  } */
+  .secondPGeneral{
+  display: block;
+  position: relative;
+  top:20px;
+}
+}
+
 @media screen and (min-width: 769px){
   section{
     /* background-color: green; */
@@ -277,7 +288,6 @@ svg:hover{
     align-items: center;
     padding-left: 1.5em;
   }
-
 }
 @media screen and (min-width: 900px){
   section{
